@@ -20,3 +20,22 @@ ul{
         color:blueviolet
     }
 }
+body{
+    width:100% ;
+    height:100% ;
+    background-color:pink;
+    scroll-behavior:inherit;
+}
+section{
+    width: 100%;
+    height: 100%;
+    border: solid rosybrown 3px;
+}
+a:visited{
+    color:navy
+
+}
+a:hover{
+    color:aqua
+
+}
