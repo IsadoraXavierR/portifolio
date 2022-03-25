@@ -1,0 +1,23 @@
+body {
+    width: 100%;
+    height: 100%; 
+    background-image: url("https://th.bing.com/th/id/OIP.R0N-cw4AFW_N3bMMJE1RqAHaHa?w=168&h=180&c=7&r=0&o=5&pid=1.7");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color:white;
+}
+@media (max-width:750px) {
+    body{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      background-color: black;
+      color: yellow;
+      align-items: center;
+      background-image: none;
+      display: flex;
+      flex-wrap: wrap;
+    }
+}

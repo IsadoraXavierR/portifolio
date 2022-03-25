@@ -1,0 +1,58 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://a-static.besthdwallpaper.com/cenario-de-fantasia-noturna-papel-de-parede-2560x2048-83044_33.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color:white;
+}
+header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: yellow;
+    justify-content: space-between;
+    align-items: center;
+}
+button {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+    text-align: center;
+    color: black;
+}
+button:active {
+    width: 50%;
+    background-color: black;
+    color: goldenrod;
+}
+    img{
+        width: 100%;
+        height: 100%;
+    }
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.viv{
+    background-color: rgba(43, 107, 226, 0.685);
+}
+@media (max-width:750px) {
+    body{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      background-color: black;
+      color: yellow;
+      align-items: center;
+      background-image: none;
+      display: flex;
+      flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,22 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://cdn.dribbble.com/users/465131/screenshots/6463249/ff_dribbbble.jpg?compress=1&resize=400x300&vertical=top");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: aliceblue;
+}
+@media (max-width:750px) {
+    body{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      background-color: black;
+      color: yellow;
+      align-items: center;
+      background-image: none;
+      display: flex;
+      flex-wrap: wrap;
+    }
+}
